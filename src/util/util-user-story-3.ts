@@ -2,8 +2,10 @@ import { createDeterministicRandom, generateOcrTestDataWithIllegibleNumbers } fr
 import { calculateChecksums, parseBankAccountsFromTestData } from './util';
 
 export {
-	calculateChecksums,
+	// Test data generator functions
 	createDeterministicRandom,
 	generateOcrTestDataWithIllegibleNumbers,
+	// Checksum calculation functions + parser
+	calculateChecksums,
 	parseBankAccountsFromTestData,
 };
